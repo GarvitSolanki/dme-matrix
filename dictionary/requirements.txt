@@ -1,0 +1,8 @@
+flask
+gunicorn
+itertools
+pandas
+csv
+re
+openpyxl
+uuid
