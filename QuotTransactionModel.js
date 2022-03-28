@@ -8,7 +8,16 @@ define('QuoteTransaction.Model', [
     'ProductDetails.WebOptions.Model',
     'ProductDetails.WebSelections.Model',
     'Configuration'
-], function (SCModel, ModelsInit, Application, Utils, _, CustomFieldsUtils, WebOptionsModel, WebOptionsSelections, Configuration) {
+], function (
+	SCModel, 
+	ModelsInit, 
+	Application, 
+	Utils, 
+	_, 
+	CustomFieldsUtils, 
+	WebOptionsModel, 
+	WebOptionsSelections, 
+	Configuration) {
     'use strict';
     var StoreItem, AddressModel;
     try {
