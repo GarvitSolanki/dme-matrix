@@ -8,6 +8,7 @@ define('QuoteTransaction.Model', [
     'ProductDetails.WebOptions.Model',
     'ProductDetails.WebSelections.Model',
     'Configuration'
+	
 ], function (
 	SCModel, 
 	ModelsInit, 
